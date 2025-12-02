@@ -8,8 +8,8 @@
       "categories": [
         "llm"
       ],
-      "summary": "Amazon SageMaker AI now supports EAGLE-based adaptive speculative decoding, a technique that accelerates large language model inference by up to 2.5x while maintaining output quality. In this post, we explain how to use EAGLE 2 and EAGLE 3 speculative decoding in Amazon SageMaker AI, covering the solution architecture, optimization workflows using your own datasets or SageMaker's built-in data, and benchmark results demonstrating significant improvements in throughput and latency.",
-      "notability_reason": "Heuristic strong-terms/source match"
+      "summary": "Amazon SageMaker AI's EAGLE-based decoding technique accelerates LLM inference by up to 2.5x while maintaining output quality.",
+      "notability_reason": "The introduction of EAGLE-based adaptive speculative decoding represents a notable advancement in accelerating LLM inference, with substantial improvements in throughput and latency."
     }
   ]
 }

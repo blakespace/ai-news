@@ -3,7 +3,7 @@ import argparse
 import json
 import os
 from typing import List, Dict
-
+from openai import OpenAI
 # OpenAI SDK (optional). If not available or no key, we fallback.
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
@@ -16,6 +16,8 @@ This is not new functionalities added to existing products unless they represent
 Consider first-party releases, major performance improvements (SOTA), new architectures, or widely impactful updates. 
 Respond in a strict JSON array with objects containing: 
 'decision' ('include'|'exclude'), 'reason', and 'summary' (1-2 sentences). Keep summaries concise and neutral."
+
+Do not wrap the returned json in ```json ... ``` blocks.
 """
 
 PROMPT_USER_TEMPLATE = (
@@ -24,39 +26,9 @@ PROMPT_USER_TEMPLATE = (
 )
 
 
-def heuristic_filter(items: List[Dict]) -> List[Dict]:
-    notable = []
-    strong_terms = [
-        "state-of-the-art", "SOTA", "outperforms", "new architecture", "release",
-        "launch", "v1", "v2", "v3", "GPT", "Llama", "YOLO", "SAM", "ViT",
-        "benchmark", "record", "breakthrough", "significant", "major", "open source",
-    ]
-    for it in items:
-        text = f"{it.get('title','')} {it.get('summary','')}".lower()
-        score = sum(t.lower() in text for t in strong_terms)
-        # prefer first-party sources
-        source_bonus = 1 if any(x in (it.get('source','')) for x in ["OpenAI", "Google", "Meta", "Anthropic", "Hugging Face"]) else 0
-        if score + source_bonus >= 2:
-            notable.append({
-                "title": it["title"],
-                "link": it["link"],
-                "source": it["source"],
-                "published": it["published"],
-                "categories": it.get("categories", []),
-                "summary": it.get("summary", ""),
-                "notability_reason": "Heuristic strong-terms/source match",
-            })
-    return notable
 
 
 def run_llm(items: List[Dict]) -> List[Dict]:
-    try:
-        from openai import OpenAI
-    except Exception:
-        return heuristic_filter(items)
-    if not OPENAI_API_KEY:
-        return heuristic_filter(items)
-
     client = OpenAI(api_key=OPENAI_API_KEY)
     compact_items = [
         {
@@ -79,22 +51,19 @@ def run_llm(items: List[Dict]) -> List[Dict]:
     )
     text = resp.choices[0].message.content.strip()
     selected = []
-    try:
-        decisions = json.loads(text)
-        for d, it in zip(decisions, items):
-            if isinstance(d, dict) and d.get("decision") == "include":
-                selected.append({
-                    "title": it["title"],
-                    "link": it["link"],
-                    "source": it["source"],
-                    "published": it["published"],
-                    "categories": it.get("categories", []),
-                    "summary": d.get("summary") or it.get("summary", ""),
-                    "notability_reason": d.get("reason", "LLM decision"),
-                })
-    except Exception:
-        # fallback if LLM failed to produce parseable JSON
-        selected = heuristic_filter(items)
+    text:str = text.lstrip("```json").rstrip("```")
+    decisions = json.loads(text)
+    for d, it in zip(decisions, items):
+        if isinstance(d, dict) and d.get("decision") == "include":
+            selected.append({
+                "title": it["title"],
+                "link": it["link"],
+                "source": it["source"],
+                "published": it["published"],
+                "categories": it.get("categories", []),
+                "summary": d.get("summary") or it.get("summary", ""),
+                "notability_reason": d.get("reason", "LLM decision"),
+            })
     return selected
 
 
