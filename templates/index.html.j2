@@ -30,19 +30,6 @@
   </header>
   <main>
     <div class="date">Updated {{ generated_date }}</div>
-    {% if notable and notable|length > 0 %}
-      <h2>Notable Releases</h2>
-      {% for n in notable %}
-      <div class="item">
-        <a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.title }}</a>
-        <div class="tags">From {{ n.source }} • {{ n.published | replace('T',' ') | replace('+00:00',' UTC') }} • Categories: {{ n.categories | join(', ') }}</div>
-        {% if n.summary %}
-        <div class="summary">{{ n.summary }}</div>
-        {% endif %}
-      </div>
-      {% endfor %}
-      <hr />
-    {% endif %}
     {% if items and items|length > 0 %}
       {% for item in items %}
       <div class="item">
