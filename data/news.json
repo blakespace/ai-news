@@ -1,0 +1,45 @@
+{
+  "generated_at": "2025-12-02T10:30:49.653068+00:00",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "How Myriad Genetics achieved fast, accurate, and cost-efficient document processing using the AWS open-source Generative AI Intelligent Document Processing Accelerator",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-myriad-genetics-achieved-fast-accurate-and-cost-efficient-document-processing-using-the-aws-open-source-generative-ai-intelligent-document-processing-accelerator/",
+      "summary": "In this post, we explore how Myriad Genetics partnered with the AWS Generative AI Innovation Center to transform their healthcare document processing pipeline using Amazon Bedrock and Amazon Nova foundation models, achieving 98% classification accuracy while reducing costs by 77% and processing time by 80%. We detail the technical implementation using AWS's open-source GenAI Intelligent Document Processing Accelerator, the optimization strategies for document classification and key information extraction, and the measurable business impact on Myriad's prior authorization workflows.",
+      "published": "2025-11-27T00:58:14+00:00",
+      "categories": [
+        "classification"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Evaluate models with the Amazon Nova evaluation container using Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/evaluate-models-with-the-amazon-nova-evaluation-container-using-amazon-sagemaker-ai/",
+      "summary": "This blog post introduces the new Amazon Nova model evaluation features in Amazon SageMaker AI. This release adds custom metrics support, LLM-based preference testing, log probability capture, metadata analysis, and multi-node scaling for large evaluations.",
+      "published": "2025-11-26T19:39:01+00:00",
+      "categories": [
+        "llm"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Amazon SageMaker AI introduces EAGLE based adaptive speculative decoding to accelerate generative AI inference",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-introduces-eagle-based-adaptive-speculative-decoding-to-accelerate-generative-ai-inference/",
+      "summary": "Amazon SageMaker AI now supports EAGLE-based adaptive speculative decoding, a technique that accelerates large language model inference by up to 2.5x while maintaining output quality. In this post, we explain how to use EAGLE 2 and EAGLE 3 speculative decoding in Amazon SageMaker AI, covering the solution architecture, optimization workflows using your own datasets or SageMaker's built-in data, and benchmark results demonstrating significant improvements in throughput and latency.",
+      "published": "2025-11-26T00:29:42+00:00",
+      "categories": [
+        "llm"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Train custom computer vision defect detection model using Amazon SageMaker",
+      "link": "https://aws.amazon.com/blogs/machine-learning/train-custom-computer-vision-defect-detection-model-using-amazon-sagemaker/",
+      "summary": "In this post, we demonstrate how to migrate computer vision workloads from Amazon Lookout for Vision to Amazon SageMaker AI by training custom defect detection models using pre-trained models available on AWS Marketplace. We provide step-by-step guidance on labeling datasets with SageMaker Ground Truth, training models with flexible hyperparameter configurations, and deploying them for real-time or batch inference\u2014giving you greater control and flexibility for automated quality inspection use cases.",
+      "published": "2025-11-25T22:44:22+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ]
+}
