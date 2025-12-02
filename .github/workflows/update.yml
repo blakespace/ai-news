@@ -39,7 +39,7 @@ jobs:
 
       - name: Build site
         run: |
-          python scripts/build_site.py --in data/news.json --out index.html
+          python scripts/build_site.py --in data/notable.json --out index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
