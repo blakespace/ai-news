@@ -1,0 +1,7 @@
+I want a news feed that gives me relevant news for new ai models that are groundbreaking in object detection, classification, segmentation LLM releases.  
+I'd like to navigate to the page every day.  
+Ideally if no news has happened there won't be any articles so i don't have to sift through articles I don't care about.
+
+It should publish to github pages.  Every day at 8am eastern the page should be updated.
+I'd like the update job to be hosted on a free service.
+
