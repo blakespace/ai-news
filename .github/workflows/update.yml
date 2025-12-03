@@ -29,7 +29,7 @@ jobs:
 
       - name: Fetch news
         run: |
-          python scripts/fetch_news.py --date today --out data/news.json --days 7
+            python scripts/fetch_news.py --date today --out data/news.json
 
       - name: Score notability (LLM optional)
         env:
@@ -37,9 +37,13 @@ jobs:
         run: |
           python scripts/notability_llm.py --in data/news.json --out data/notable.json
 
+      - name: Update history
+        run: |
+          python scripts/update_history.py --news data/news.json --notable data/notable.json --history data/history
+
       - name: Build site
         run: |
-          python scripts/build_site.py --in data/notable.json --out index.html
+          python scripts/build_site.py --history data/history --days 7 --out index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -31,8 +31,21 @@
   <main>
     <div class="date">Updated {{ generated_date }}</div>
     {% if day_sections and day_sections|length > 0 %}
-      {% for day, entries in day_sections %}
+      {% for day, entries, notable in day_sections %}
         <h2>{{ day }}</h2>
+        {% if notable and notable|length > 0 %}
+          <h3>Notable Releases</h3>
+          {% for n in notable %}
+          <div class="item">
+            <a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.title }}</a>
+            <div class="tags">From {{ n.source }} • {{ n.published | replace('T',' ') | replace('+00:00',' UTC') }} • Categories: {{ n.categories | join(', ') }}</div>
+            {% if n.summary %}
+            <div class="summary">{{ n.summary }}</div>
+            {% endif %}
+          </div>
+          {% endfor %}
+          <hr />
+        {% endif %}
         {% for item in entries %}
         <div class="item">
           <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>

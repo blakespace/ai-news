@@ -23,6 +23,7 @@ KEYWORDS = [
     "state-of-the-art",
     "pretraining",
     "fine-tuning",
+    "depth",
 ]
 
 EXCLUDE_PHRASES = [
@@ -48,6 +49,8 @@ image classification, segmentation, and large language models (LLMs).
 Assess each item for whether it is highly notable or groundbreaking for practitioners and researchers.
 This should be for major advancements for broad models or techniques, not incremental updates.
 This is not new functionalities added to existing products unless they represent significant leaps.
+Also exclude news about how customers use an existing service or model as these are more marketing news
+rather than technical breakthroughs.
 Consider first-party releases, major performance improvements (SOTA), new architectures, or widely impactful updates. 
 Respond in a strict JSON array with objects containing: 
 'decision' ('include'|'exclude'), 'reason', and 'summary' (1-2 sentences). Keep summaries concise and neutral."
