@@ -41,6 +41,20 @@ jobs:
         run: |
           python scripts/update_history.py --news data/news.json --notable data/notable.json --history data/history
 
+      - name: Commit history to repo
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Add new/changed history files
+          if [ -n "$(git status --porcelain data/history)" ]; then
+            git add data/history
+            git commit -m "chore(history): update daily history $(date -u +'%Y-%m-%d')"
+            git push
+          else
+            echo "No history changes to commit"
+          fi
+
       - name: Build site
         run: |
           python scripts/build_site.py --history data/history --days 7 --out index.html
