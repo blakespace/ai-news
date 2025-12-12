@@ -1,0 +1,17 @@
+{
+  "date": "2025-12-12",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Scaling MLflow for enterprise AI: What\u2019s New in SageMaker AI with MLflow",
+      "link": "https://aws.amazon.com/blogs/machine-learning/scaling-mlflow-for-enterprise-ai-whats-new-in-sagemaker-ai-with-mlflow/",
+      "summary": "Today we\u2019re announcing Amazon SageMaker AI with MLflow, now including a serverless capability that dynamically manages infrastructure provisioning, scaling, and operations for artificial intelligence and machine learning (AI/ML) development tasks. In this post, we explore how these new capabilities help you run large MLflow workloads\u2014from generative AI agents to large language model (LLM) experimentation\u2014with improved performance, automation, and security using SageMaker AI with MLflow.",
+      "published": "2025-12-11T18:16:19+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2025-12-12T13:30:19.414342+00:00"
+}
