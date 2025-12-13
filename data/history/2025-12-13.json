@@ -1,0 +1,29 @@
+{
+  "date": "2025-12-13",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "Minitron-SSM: Efficient Hybrid Language Model Compression through Group-Aware SSM Pruning",
+      "link": "https://research.nvidia.com/publication/2025-04_minitron-ssm-efficient-hybrid-language-model-compression-through-group-aware",
+      "summary": "Minitron-SSM: Efficient Hybrid Language Model Compression through Group-Aware SSM Pruning\n\n            Hybrid LLM architectures that combine Attention and State Space Models (SSMs) achieve state-of-the-art accuracy and runtime performance. Recent work has demonstrated that applying compression and distillation to Attention-only models yields smaller, more accurate models at a fraction of the training cost. In this work, we explore the effectiveness of compressing Hybrid architectures. We introduce a novel group-aware pruning strategy that preserves the structural integrity of SSM blocks and their sequence modeling capabilities. Furthermore, we demonstrate the necessity of such SSM pruning to achieve improved accuracy and inference speed compared to traditional approaches. Our compression recipe combines SSM, FFN, embedding dimension, and layer pruning, followed by knowledge distillation-based retraining, similar to the MINITRON technique. Using this approach, we compress the Nemotron-H 8B Hybrid model down to 4B parameters with up to 40x fewer training tokens. The resulting model surpasses the accuracy of similarly-sized models while achieving 2x faster inference, significantly advancing the Pareto frontier.\n\n      \nsauravm\n\nFri, 12/12/2025 - 10:54",
+      "published": "2025-12-12T18:54:06+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "Minitron-SSM: Efficient Hybrid Language Model Compression through Group-Aware SSM Pruning",
+      "link": "https://research.nvidia.com/publication/2025-04_minitron-ssm-efficient-hybrid-language-model-compression-through-group-aware",
+      "source": "NVIDIA Research",
+      "published": "2025-12-12T18:54:06+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "NVIDIA Research presents Minitron-SSM, a hybrid language model compression method that utilizes group-aware SSM pruning, achieving improved accuracy and inference speed while significantly reducing model size and training costs.",
+      "notability_reason": "The introduction of a novel group-aware pruning strategy for hybrid language models represents a significant advancement in model compression techniques, achieving state-of-the-art accuracy and efficiency."
+    }
+  ],
+  "generated_at": "2025-12-13T13:22:42.150042+00:00"
+}
