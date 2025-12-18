@@ -1,0 +1,17 @@
+{
+  "date": "2025-12-18",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Tracking and managing assets used in AI development with\u00a0Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/tracking-and-managing-assets-used-in-ai-development-with-amazon-sagemaker-ai/",
+      "summary": "In this post, we'll explore the new capabilities and core concepts that help organizations track and manage models development and deployment lifecycles. We will show you how the features are configured to train models with automatic end-to-end lineage, from dataset upload and versioning to model fine-tuning, evaluation, and seamless endpoint deployment.",
+      "published": "2025-12-17T16:53:30+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2025-12-18T13:32:02.533586+00:00"
+}
