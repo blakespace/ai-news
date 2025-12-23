@@ -1,0 +1,17 @@
+{
+  "date": "2025-12-23",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Deploy Mistral AI\u2019s Voxtral on Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-mistral-ais-voxtral-on-amazon-sagemaker-ai/",
+      "summary": "In this post, we demonstrate hosting Voxtral models on Amazon SageMaker AI endpoints using vLLM and the Bring Your Own Container (BYOC) approach. vLLM is a high-performance library for serving large language models (LLMs) that features paged attention for improved memory management and tensor parallelism for distributing models across multiple GPUs.",
+      "published": "2025-12-22T18:32:19+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2025-12-23T13:31:35.184272+00:00"
+}
