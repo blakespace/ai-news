@@ -1,0 +1,17 @@
+{
+  "date": "2025-12-25",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Optimizing LLM inference on Amazon SageMaker AI with BentoML\u2019s LLM- Optimizer",
+      "link": "https://aws.amazon.com/blogs/machine-learning/optimizing-llm-inference-on-amazon-sagemaker-ai-with-bentomls-llm-optimizer/",
+      "summary": "In this post, we demonstrate how to optimize large language model (LLM) inference on Amazon SageMaker AI using BentoML's LLM-Optimizer to systematically identify the best serving configurations for your workload.",
+      "published": "2025-12-24T17:17:44+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2025-12-25T13:28:12.146127+00:00"
+}
