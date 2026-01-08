@@ -1,0 +1,29 @@
+{
+  "date": "2026-01-08",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "3D-GENERALIST: Vision-Language-Action Models for Crafting 3D Worlds",
+      "link": "https://research.nvidia.com/publication/2026-03_3d-generalist-vision-language-action-models-crafting-3d-worlds",
+      "summary": "3D-GENERALIST: Vision-Language-Action Models for Crafting 3D Worlds\n\n            Despite large-scale pretraining endowing models with language and vision reasoning capabilities, improving their spatial reasoning capability remains challenging due to the lack of data grounded in the 3D world. While it is possible for humans to manually create immersive and interactive worlds through 3D graphics, as seen in applications such as VR, gaming, and robotics, this process remains highly labor-intensive. In this paper, we propose a scalable method for generating high-quality 3D environments that can serve as training data for foundation models. We recast 3D environment building as a sequential decision-making problem, employing Vision-Language-Models (VLMs) as policies that output actions to jointly craft a 3D environment's layout, materials, lighting, and assets. Our proposed framework, 3D-Generalist, trains VLMs to generate more prompt-aligned 3D environments via self-improvement fine-tuning. We demonstrate the effectiveness of 3D-Generalist and the proposed training strategy in generating simulation-ready 3D environments. Furthermore, we demonstrate its quality and scalability in synthetic data generation by pretraining a vision foundation model on the generated data. After fine-tuning the pre-trained model on downstream tasks, we show that it surpasses models pre-trained on meticulously human-crafted synthetic data and approaches results achieved with real data orders of magnitude larger.\n\n      \nazook\n\nWed, 01/07/2026 - 17:13",
+      "published": "2026-01-08T01:13:20+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "3D-GENERALIST: Vision-Language-Action Models for Crafting 3D Worlds",
+      "link": "https://research.nvidia.com/publication/2026-03_3d-generalist-vision-language-action-models-crafting-3d-worlds",
+      "source": "NVIDIA Research",
+      "published": "2026-01-08T01:13:20+00:00",
+      "categories": [
+        "general"
+      ],
+      "summary": "3D-GENERALIST proposes a novel framework for generating high-quality 3D environments using Vision-Language-Models, demonstrating superior performance over traditional methods and enabling scalable data generation for training foundation models.",
+      "notability_reason": "The introduction of 3D-GENERALIST represents a significant advancement in the integration of vision, language, and action models for generating 3D environments, which can impact various fields including robotics and gaming."
+    }
+  ],
+  "generated_at": "2026-01-08T13:36:24.059137+00:00"
+}
