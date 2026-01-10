@@ -1,0 +1,17 @@
+{
+  "date": "2026-01-10",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Sentiment Analysis with Text and Audio Using AWS Generative AI Services: Approaches, Challenges, and Solutions",
+      "link": "https://aws.amazon.com/blogs/machine-learning/sentiment-analysis-with-text-and-audio-using-aws-generative-ai-services-approaches-challenges-and-solutions/",
+      "summary": "This post, developed through a strategic scientific partnership between AWS and the Instituto de Ci\u00eancia e Tecnologia Ita\u00fa (ICTi), P&amp;D hub maintained by Ita\u00fa Unibanco, the largest private bank in Latin America, explores the technical aspects of sentiment analysis for both text and audio. We present experiments comparing multiple machine learning (ML) models and services, discuss the trade-offs and pitfalls of each approach, and highlight how AWS services can be orchestrated to build robust, end-to-end solutions. We also offer insights into potential future directions, including more advanced prompt engineering for large language models (LLMs) and expanding the scope of audio-based analysis to capture emotional cues that text data alone might miss.",
+      "published": "2026-01-09T16:06:50+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-01-10T13:25:11.791924+00:00"
+}
