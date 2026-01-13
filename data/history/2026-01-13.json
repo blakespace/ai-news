@@ -1,0 +1,17 @@
+{
+  "date": "2026-01-13",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "How Omada Health scaled patient care by fine-tuning Llama models on Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-omada-health-scaled-patient-care-by-fine-tuning-llama-models-on-amazon-sagemaker-ai/",
+      "summary": "This post is co-written with Sunaina Kavi, AI/ML Product Manager at Omada Health. Omada Health, a longtime innovator in virtual healthcare delivery, launched a new nutrition experience in 2025, featuring OmadaSpark, an AI agent trained with robust clinical input that delivers real-time motivational interviewing and nutrition education. It was built on AWS. OmadaSpark was designed [\u2026]",
+      "published": "2026-01-12T16:56:12+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-01-13T13:36:50.092680+00:00"
+}
