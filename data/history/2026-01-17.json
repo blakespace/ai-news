@@ -1,0 +1,27 @@
+{
+  "date": "2026-01-17",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Advanced fine-tuning techniques for multi-agent orchestration: Patterns from Amazon at scale",
+      "link": "https://aws.amazon.com/blogs/machine-learning/advanced-fine-tuning-techniques-for-multi-agent-orchestration-patterns-from-amazon-at-scale/",
+      "summary": "In this post, we show you how fine-tuning enabled a 33% reduction in dangerous medication errors (Amazon Pharmacy), engineering 80% human effort reduction (Amazon Global Engineering Services), and content quality assessments improving 77% to 96% accuracy (Amazon A+). This post details the techniques behind these outcomes: from foundational methods like Supervised Fine-Tuning (SFT) (instruction tuning), and Proximal Policy Optimization (PPO), to Direct Preference Optimization (DPO) for human alignment, to cutting-edge reasoning optimizations such as Grouped-based Reinforcement Learning from Policy Optimization (GRPO), Direct Advantage Policy Optimization (DAPO), and Group Sequence Policy Optimization (GSPO) purpose-built for agentic systems.",
+      "published": "2026-01-16T15:51:21+00:00",
+      "categories": [
+        "general"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "How Palo Alto Networks enhanced device security infra log analysis with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-palo-alto-networks-enhanced-device-security-infra-log-analysis-with-amazon-bedrock/",
+      "summary": "Palo Alto Networks\u2019 Device Security team wanted to detect early warning signs of potential production issues to provide more time to SMEs to react to these emerging problems. They partnered with the AWS Generative AI Innovation Center (GenAIIC) to develop an automated log classification pipeline powered by Amazon Bedrock. In this post, we discuss how Amazon Bedrock, through Anthropic\u2019 s Claude Haiku model, and Amazon Titan Text Embeddings work together to automatically classify and analyze log data. We explore how this automated pipeline detects critical issues, examine the solution architecture, and share implementation insights that have delivered measurable operational improvements.",
+      "published": "2026-01-16T15:46:36+00:00",
+      "categories": [
+        "classification"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-01-17T13:24:51.389878+00:00"
+}
