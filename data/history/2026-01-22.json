@@ -1,0 +1,17 @@
+{
+  "date": "2026-01-22",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Build agents to learn from experiences using Amazon Bedrock AgentCore episodic memory",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-agents-to-learn-from-experiences-using-amazon-bedrock-agentcore-episodic-memory/",
+      "summary": "In this post, we walk you through the complete architecture to structure and store episodes, discuss the reflection module, and share compelling benchmarks that demonstrate significant improvements in agent task success rates.",
+      "published": "2026-01-21T19:45:04+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-01-22T13:41:29.198026+00:00"
+}
