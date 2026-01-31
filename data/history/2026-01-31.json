@@ -1,0 +1,17 @@
+{
+  "date": "2026-01-31",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Evaluating generative AI models with Amazon Nova LLM-as-a-Judge on Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/evaluating-generative-ai-models-with-amazon-nova-llm-as-a-judge-on-amazon-sagemaker-ai/",
+      "summary": "Evaluating the performance of large language models (LLMs) goes beyond statistical metrics like perplexity or bilingual evaluation understudy (BLEU) scores. For most real-world generative AI scenarios, it\u2019s crucial to understand whether a model is producing better outputs than a baseline or an earlier iteration. This is especially important for applications such as summarization, content generation, [\u2026]",
+      "published": "2026-01-30T21:07:34+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-01-31T13:36:15.854373+00:00"
+}
