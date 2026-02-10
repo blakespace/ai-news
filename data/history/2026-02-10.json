@@ -1,0 +1,17 @@
+{
+  "date": "2026-02-10",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Scale LLM fine-tuning with Hugging Face and Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/scale-llm-fine-tuning-with-hugging-face-and-amazon-sagemaker-ai/",
+      "summary": "In this post, we show how this integrated approach transforms enterprise LLM fine-tuning from a complex, resource-intensive challenge into a streamlined, scalable solution for achieving better model performance in domain-specific applications.",
+      "published": "2026-02-09T16:48:46+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-02-10T14:19:23.269597+00:00"
+}
