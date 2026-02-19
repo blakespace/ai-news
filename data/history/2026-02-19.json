@@ -1,0 +1,37 @@
+{
+  "date": "2026-02-19",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "Robot policy evaluation for sim-to-real transfer: A benchmarking perspective",
+      "link": "https://research.nvidia.com/publication/2025-06_robot-policy-evaluation-sim-real-transfer-benchmarking-perspective",
+      "summary": "Robot policy evaluation for sim-to-real transfer: A benchmarking perspective\n\nxuningy\n\nWed, 02/18/2026 - 06:51\n\n\n  \n    Tags\n          \n              robotics",
+      "published": "2026-02-18T14:51:38+00:00",
+      "categories": [
+        "general"
+      ]
+    },
+    {
+      "source": "NVIDIA Research",
+      "title": "Towards a VLM Benchmark for Simulated Robotics",
+      "link": "https://research.nvidia.com/publication/2025-06_towards-vlm-benchmark-simulated-robotics",
+      "summary": "Towards a VLM Benchmark for Simulated Robotics\n\nxuningy\n\nWed, 02/18/2026 - 06:47",
+      "published": "2026-02-18T14:47:59+00:00",
+      "categories": [
+        "general"
+      ]
+    },
+    {
+      "source": "NVIDIA Research",
+      "title": "Aim My Robot: Precision Local Navigation to Any Object",
+      "link": "https://research.nvidia.com/publication/2025-04_aim-my-robot-precision-local-navigation-any-object",
+      "summary": "Aim My Robot: Precision Local Navigation to Any Object\n\n            Existing navigation systems mostly consider \u201csuccess\u201d when the robot reaches within 1 m radius to a goal. This precision is insufficient for emerging applications where a robot needs to be positioned precisely relative to an object for downstream tasks, such as docking, inspection, and manipulation. To this end, we design and implement Aim-My-Robot (AMR), a local navigation system that enables a robot to reach any object in its vicinity at the desired relative pose, with centimeter-level accuracy. AMR achieves high accuracy and robustness by leveraging multi-modal sensors, precise action prediction, and is trained on large-scale photorealistic data generated in simulation. AMR shows strong sim2real transfer and can adapt to different robot kinematics and unseen objects with little to no fine-tuning.\n\n      \nxuningy\n\nWed, 02/18/2026 - 06:39\n\n\n  \n    Tags\n          \n              robotics\n          manipulation\n          navigation",
+      "published": "2026-02-18T14:39:14+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-02-19T14:04:44.079898+00:00"
+}
