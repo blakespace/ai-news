@@ -1,0 +1,41 @@
+{
+  "date": "2026-02-24",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "Test-Time Alignment for Large Language Models via Textual Model Predictive Control",
+      "link": "https://research.nvidia.com/publication/2026-04_test-time-alignment-large-language-models-textual-model-predictive-control",
+      "summary": "Test-Time Alignment for Large Language Models via Textual Model Predictive Control\n\n            Abstract Aligning Large Language Models (LLMs) with human preferences through finetuning is resource-intensive, motivating lightweight alternatives at test time. We address test-time alignment through the lens of sequential decision making, a perspective that reveals two fundamental challenges. When actions are defined at the token level, as in guided decoding, alignment suffers from the curse of horizon. Conversely, when actions are at the response level, as in traditional iterative refinement, the curse of dimensionality emerges. To resolve this trade-off, we draw inspiration from Model Predictive Control (MPC) in control theory to propose Textual Model Predictive Control (TMPC), a novel predictive planning framework adapted for aligning LLMs at inference time. A key limitation of standard MPC is its reliance on predefined, hard segment boundaries, which are often absent in text generation. TMPC overcomes this by introducing two principles inspired by hierarchical reinforcement learning: (1) Hindsight Subgoal Identification, where TMPC analyzes generation subgoals to retrospectively identify high-reward intermediate outputs as subgoals. This allows the framework to discover meaningful, task-specific planning steps (e.g., a sentence in machine translation or a bug fix in code generation.). (2) Subgoal-Conditioned Re-Generation, where these identified subgoals are used to guide subsequent planning iterations. By conditioning on these proven, high-quality subgoals, TMPC ensures stable improvement by building upon previously validated successes. TMPC is evaluated on three tasks with distinct segmentation properties: discourse-level translation, long-form response generation, and program synthesis. The results demonstrate that TMPC consistently improves performance, highlighting the generality.\n\n      \nhucky\n\nMon, 02/23/2026 - 22:51",
+      "published": "2026-02-24T06:51:31+00:00",
+      "categories": [
+        "segmentation",
+        "llm"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Accelerating AI model production at Hexagon with Amazon SageMaker HyperPod",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-ai-model-production-at-hexagon-with-amazon-sagemaker-hyperpod/",
+      "summary": "In this blog post, we demonstrate how Hexagon collaborated with Amazon Web Services to scale their AI model production by pretraining state-of-the-art segmentation models, using the model training infrastructure of Amazon SageMaker HyperPod.",
+      "published": "2026-02-23T17:29:11+00:00",
+      "categories": [
+        "segmentation"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "Test-Time Alignment for Large Language Models via Textual Model Predictive Control",
+      "link": "https://research.nvidia.com/publication/2026-04_test-time-alignment-large-language-models-textual-model-predictive-control",
+      "source": "NVIDIA Research",
+      "published": "2026-02-24T06:51:31+00:00",
+      "categories": [
+        "segmentation",
+        "llm"
+      ],
+      "summary": "NVIDIA Research introduces TMPC, a framework for aligning LLMs at test time using principles from Model Predictive Control, which improves performance across various tasks by identifying and conditioning on high-reward subgoals.",
+      "notability_reason": "The proposed Textual Model Predictive Control (TMPC) framework represents a novel approach to aligning LLMs at inference time, addressing significant challenges in the field."
+    }
+  ],
+  "generated_at": "2026-02-24T14:06:53.943623+00:00"
+}
