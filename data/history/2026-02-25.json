@@ -1,0 +1,39 @@
+{
+  "date": "2026-02-25",
+  "items": [
+    {
+      "source": "Apple ML Journal",
+      "title": "Closing the Gap Between Text and Speech Understanding in LLMs",
+      "link": "https://machinelearning.apple.com/research/closing-the-gap",
+      "summary": "Large Language Models (LLMs) can be adapted to extend their text capabilities to speech inputs. However, these speech-adapted LLMs consistently underperform their text-based counterparts\u2014and even cascaded pipelines\u2014on language understanding tasks. We term this shortfall the text-speech understanding gap: the performance drop observed when a speech-adapted LLM processes spoken inputs relative to when the original text-based LLM processes the equivalent text. Recent approaches to narrowing this gap either rely on large-scale speech synthesis of text corpora, which is costly and heavily dependent\u2026",
+      "published": "2026-02-25T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Build an intelligent photo search using Amazon Rekognition, Amazon Neptune, and Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-photo-search-using-amazon-rekognition-amazon-neptune-and-amazon-bedrock/",
+      "summary": "In this post, we show you how to build a comprehensive photo search system using the AWS Cloud Development Kit (AWS CDK) that integrates Amazon Rekognition for face and object detection, Amazon Neptune for relationship mapping, and Amazon Bedrock for AI-powered captioning.",
+      "published": "2026-02-24T18:22:26+00:00",
+      "categories": [
+        "detection"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "Closing the Gap Between Text and Speech Understanding in LLMs",
+      "link": "https://machinelearning.apple.com/research/closing-the-gap",
+      "source": "Apple ML Journal",
+      "published": "2026-02-25T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "The study explores methods to close the performance gap between text and speech understanding in LLMs, highlighting the challenges and potential solutions for improving speech-adapted models.",
+      "notability_reason": "This research addresses a significant performance gap in LLMs when adapting them for speech understanding, which is a critical area of advancement in natural language processing."
+    }
+  ],
+  "generated_at": "2026-02-25T14:05:42.082492+00:00"
+}
