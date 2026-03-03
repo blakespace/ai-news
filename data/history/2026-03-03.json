@@ -1,0 +1,17 @@
+{
+  "date": "2026-03-03",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Building specialized AI without sacrificing intelligence:\u00a0Nova Forge data mixing in action",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/",
+      "summary": "In this post, we share results from the AWS China Applied Science team's comprehensive evaluation of Nova Forge using a challenging Voice of Customer (VOC) classification task, benchmarked against open-source models.",
+      "published": "2026-03-02T19:32:47+00:00",
+      "categories": [
+        "classification"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-03-03T13:54:45.136370+00:00"
+}
