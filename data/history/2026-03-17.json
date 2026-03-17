@@ -1,0 +1,29 @@
+{
+  "date": "2026-03-17",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "GalaxyDiT: Efficient Video Generation with Guidance Alignment and Adaptive Proxy in Diffusion Transformers",
+      "link": "https://research.nvidia.com/publication/2026-07_galaxydit-efficient-video-generation-guidance-alignment-and-adaptive-proxy",
+      "summary": "GalaxyDiT: Efficient Video Generation with Guidance Alignment and Adaptive Proxy in Diffusion Transformers\n\n            Diffusion models have revolutionized video generation, becoming essential tools in creative content generation and physical simulation. Transformer-based architectures (DiTs) and classifier-free guidance (CFG) are two cornerstones of this success, enabling strong prompt adherence and realistic video quality. Despite their versatility and superior performance, these models require intensive computation. Each video generation requires dozens of iterative steps, and CFG doubles the required compute. This inefficiency hinders broader adoption in downstream applications. We introduce GalaxyDiT, a training-free method to accelerate video generation with guidance alignment and systematic proxy selection for reuse metrics. Through rank-order correlation analysis, our technique identifies the optimal proxy for each video model, across model families and parameter scales, thereby ensuring optimal computational reuse. We achieve 1.87\u00d7 and 2.37\u00d7 speedup on Wan2.1-1.3B and Wan2.1-14B with only 0.97% and 0.72% drops on the VBench-2.0 benchmark. At high speedup rates, our approach maintains superior fidelity to the base model, exceeding prior state-of-the-art approaches by 5 to 10 dB in peak signal-to-noise ratio (PSNR).&nbsp;\n\n      \nbenk\n\nMon, 03/16/2026 - 12:44",
+      "published": "2026-03-16T19:44:14+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "GalaxyDiT: Efficient Video Generation with Guidance Alignment and Adaptive Proxy in Diffusion Transformers",
+      "link": "https://research.nvidia.com/publication/2026-07_galaxydit-efficient-video-generation-guidance-alignment-and-adaptive-proxy",
+      "source": "NVIDIA Research",
+      "published": "2026-03-16T19:44:14+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "GalaxyDiT offers a training-free method to accelerate video generation while maintaining high fidelity, achieving notable speedups and surpassing previous state-of-the-art performance in peak signal-to-noise ratio.",
+      "notability_reason": "The introduction of GalaxyDiT presents a significant advancement in video generation efficiency, addressing computational challenges associated with diffusion models."
+    }
+  ],
+  "generated_at": "2026-03-17T14:15:44.893667+00:00"
+}
