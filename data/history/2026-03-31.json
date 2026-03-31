@@ -1,0 +1,17 @@
+{
+  "date": "2026-03-31",
+  "items": [
+    {
+      "source": "Apple ML Journal",
+      "title": "ProText: A Benchmark Dataset for Measuring (Mis)gendering in Long-Form Texts",
+      "link": "https://machinelearning.apple.com/research/protext-gender-bias-benchmark",
+      "summary": "We introduce ProText, a dataset for measuring gendering and misgendering in stylistically diverse long-form English texts. ProText spans three dimensions: Theme nouns (names, occupations, titles, kinship terms), Theme category (stereotypically male, stereotypically female, gender-neutral/non-gendered), and Pronoun category (masculine, feminine, gender-neutral, none). The dataset is designed to probe (mis)gendering in text transformations such as summarization and rewrites using state-of-the-art Large Language Models, extending beyond traditional pronoun resolution benchmarks and beyond the\u2026",
+      "published": "2026-03-31T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-03-31T14:23:53.546782+00:00"
+}
