@@ -1,0 +1,83 @@
+{
+  "date": "2026-04-02",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Scaling seismic foundation models on AWS: Distributed training with Amazon SageMaker HyperPod and expanding context windows",
+      "link": "https://aws.amazon.com/blogs/machine-learning/scaling-seismic-foundation-models-on-aws-distributed-training-with-amazon-sagemaker-hyperpod-and-expanding-context-windows/",
+      "summary": "This post describes how TGS achieved near-linear scaling for distributed training and expanded context windows for their Vision Transformer-based SFM using Amazon SageMaker HyperPod. This joint solution cut training time from 6 months to just 5 days while enabling analysis of seismic volumes larger than previously possible.",
+      "published": "2026-04-02T13:30:57+00:00",
+      "categories": [
+        "llm"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Control which domains your AI agents can access",
+      "link": "https://aws.amazon.com/blogs/machine-learning/control-which-domains-your-ai-agents-can-access/",
+      "summary": "In this post, we show you how to configure AWS Network Firewall to restrict AgentCore resources to an allowlist of approved internet domains. This post focuses on domain-level filtering using SNI inspection \u2014 the first layer of a defense-in-depth approach.",
+      "published": "2026-04-02T13:28:19+00:00",
+      "categories": [
+        "general"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Rocket Close transforms mortgage document processing with Amazon Bedrock and Amazon Textract",
+      "link": "https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/",
+      "summary": "Through a strategic partnership with the AWS Generative AI Innovation Center (GenAIIC), Rocket Close developed an intelligent document processing solution that has significantly reduced processing time, making the process 15 times faster. The solution, which uses Amazon Textract for OCR processing and Amazon Bedrock for foundation models (FMs), achieves a strong 90% overall accuracy in document segmentation, classification, and field extraction.",
+      "published": "2026-04-02T12:59:31+00:00",
+      "categories": [
+        "classification",
+        "segmentation"
+      ]
+    },
+    {
+      "source": "Microsoft Research Blog",
+      "title": "ADeLe: Predicting and explaining AI performance across tasks",
+      "link": "https://www.microsoft.com/en-us/research/blog/adele-predicting-and-explaining-ai-performance-across-tasks/",
+      "summary": "AI benchmarks report how large language models (LLMs) perform on specific tasks but provide little insight into their underlying capabilities that drive their performance. They do not explain failures or reliably predict outcomes on new tasks. To address this, Microsoft researchers in collaboration with Princeton University and&#160;Universitat&#160;Polit\u00e8cnica&#160;de Val\u00e8ncia introduce ADeLe (opens in new tab) (AI [&#8230;]\nThe post ADeLe: Predicting and explaining AI performance across tasks appeared first on Microsoft Research.",
+      "published": "2026-04-01T16:00:58+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "Scaling seismic foundation models on AWS: Distributed training with Amazon SageMaker HyperPod and expanding context windows",
+      "link": "https://aws.amazon.com/blogs/machine-learning/scaling-seismic-foundation-models-on-aws-distributed-training-with-amazon-sagemaker-hyperpod-and-expanding-context-windows/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-04-02T13:30:57+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "TGS achieved near-linear scaling for distributed training of a Vision Transformer-based seismic foundation model, reducing training time from 6 months to 5 days and enabling analysis of larger seismic volumes.",
+      "notability_reason": "This item describes a significant advancement in distributed training for large models, achieving near-linear scaling and drastically reducing training time, which is highly relevant for practitioners in the field."
+    },
+    {
+      "title": "Rocket Close transforms mortgage document processing with Amazon Bedrock and Amazon Textract",
+      "link": "https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/",
+      "source": "AWS Machine Learning Blog",
+      "published": "2026-04-02T12:59:31+00:00",
+      "categories": [
+        "classification",
+        "segmentation"
+      ],
+      "summary": "Rocket Close's solution, using Amazon Textract and Bedrock, reduces mortgage document processing time by 15 times and achieves 90% accuracy in segmentation and classification.",
+      "notability_reason": "The development of an intelligent document processing solution that significantly improves processing speed and accuracy represents a notable advancement in the application of classification and segmentation techniques."
+    },
+    {
+      "title": "ADeLe: Predicting and explaining AI performance across tasks",
+      "link": "https://www.microsoft.com/en-us/research/blog/adele-predicting-and-explaining-ai-performance-across-tasks/",
+      "source": "Microsoft Research Blog",
+      "published": "2026-04-01T16:00:58+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "Microsoft researchers introduced ADeLe, a framework aimed at predicting and explaining the performance of large language models across various tasks, addressing limitations in current AI benchmarks.",
+      "notability_reason": "ADeLe introduces a new framework for predicting and explaining AI performance across tasks, which is a significant advancement in understanding LLM capabilities and improving their application."
+    }
+  ],
+  "generated_at": "2026-04-02T14:19:27.920343+00:00"
+}
