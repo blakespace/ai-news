@@ -1,0 +1,27 @@
+{
+  "date": "2026-04-09",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Customize Amazon Nova models with Amazon Bedrock fine-tuning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-nova-models-with-amazon-bedrock-fine-tuning/",
+      "summary": "In this post, we'll walk you through a complete implementation of model fine-tuning in Amazon Bedrock using Amazon Nova models, demonstrating each step through an intent classifier example that achieves superior performance on a domain specific task. Throughout this guide, you'll learn to prepare high-quality training data that drives meaningful model improvements, configure hyperparameters to optimize learning without overfitting, and deploy your fine-tuned model for improved accuracy and reduced latency. We'll show you how to evaluate your results using training metrics and loss curves.",
+      "published": "2026-04-08T19:51:50+00:00",
+      "categories": [
+        "general"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Reinforcement fine-tuning on Amazon Bedrock: Best practices",
+      "link": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-on-amazon-bedrock-best-practices/",
+      "summary": "In this post, we explore where RFT is most effective, using the GSM8K mathematical reasoning dataset as a concrete example. We then walk through best practices for dataset preparation and reward function design, show how to monitor training progress using Amazon Bedrock metrics, and conclude with practical hyperparameter tuning guidelines informed by experiments across multiple models and use cases.",
+      "published": "2026-04-08T19:43:28+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-04-09T14:50:30.939019+00:00"
+}
