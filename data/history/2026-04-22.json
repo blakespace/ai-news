@@ -1,0 +1,17 @@
+{
+  "date": "2026-04-22",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "Editing Physiological Signals in Videos Using Latent Representations",
+      "link": "https://research.nvidia.com/publication/2026-06_editing-physiological-signals-videos-using-latent-representations",
+      "summary": "Editing Physiological Signals in Videos Using Latent Representations\n\n            Camera-based physiological signal estimation provides a convenient and non-contact way to monitor heart rate, but it also raises serious privacy concerns because facial videos can leak sensitive information about a person\u2019s health and emotional state. We present a learned framework for editing physiological signals in videos while preserving visual fidelity. Our method first encodes an input video into a latent representation using a pretrained 3D Variational Autoencoder, and embeds a target heart-rate prompt through a frozen text encoder. The two representations are fused by trainable spatio-temporal layers with Adaptive Layer Normalization to model the strong temporal coherence of remote photoplethysmography signals. To better preserve subtle physiological variations during reconstruction, we apply Feature-wise Linear Modulation in the decoder and fine-tune its output layer. Across multiple benchmark datasets, our approach preserves visual quality with an average PSNR of 38.96 dB and SSIM of 0.98, while achieving an average heart-rate modulation error of 10.00 bpm MAE and 10.09% MAPE under a state-of-the-art rPPG estimator. These results suggest that our framework is useful for privacy-preserving video sharing, biometric anonymization, and the generation of realistic videos with controllable vital signs.\n\n      \njspjut\n\nTue, 04/21/2026 - 21:58\n\n\n  \n    Tags\n          \n              AI\n          Diffusion models\n          Image editing",
+      "published": "2026-04-22T04:58:19+00:00",
+      "categories": [
+        "classification"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-04-22T14:42:44.568765+00:00"
+}
