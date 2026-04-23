@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-23",
+  "items": [
+    {
+      "source": "Microsoft Research Blog",
+      "title": "AutoAdapt: Automated domain adaptation for large language\u00a0models",
+      "link": "https://www.microsoft.com/en-us/research/blog/autoadapt-automated-domain-adaptation-for-large-language-models/",
+      "summary": "Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because adapting models to domain-specific requirements is a slow and manual process that is difficult to reproduce. The core challenge is domain adaptation, [&#8230;]\nThe post AutoAdapt: Automated domain adaptation for large language\u00a0models appeared first on Microsoft Research.",
+      "published": "2026-04-22T16:25:30+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "AutoAdapt: Automated domain adaptation for large language\u00a0models",
+      "link": "https://www.microsoft.com/en-us/research/blog/autoadapt-automated-domain-adaptation-for-large-language-models/",
+      "source": "Microsoft Research Blog",
+      "published": "2026-04-22T16:25:30+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "AutoAdapt automates the domain adaptation process for large language models, enhancing their performance and reliability in high-stakes environments such as law and medicine.",
+      "notability_reason": "The introduction of AutoAdapt represents a significant advancement in the domain adaptation of large language models, addressing a critical challenge in deploying LLMs in specialized fields."
+    }
+  ],
+  "generated_at": "2026-04-23T15:08:40.317215+00:00"
+}
