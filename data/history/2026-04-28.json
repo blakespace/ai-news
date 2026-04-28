@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-28",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "CRoCoDiL: Continuous and Robust Conditioned Diffusion for Language",
+      "link": "https://research.nvidia.com/publication/2026-03_crocodil-continuous-and-robust-conditioned-diffusion-language",
+      "summary": "CRoCoDiL: Continuous and Robust Conditioned Diffusion for Language\n\n            Masked Diffusion Models (MDMs) provide an efficient non-causal alternative to autoregressive generation but often struggle with token dependencies and semantic incoherence due to their reliance on discrete marginal distributions. We address these limitations by shifting the diffusion process into a continuous sentence-level semantic space. We propose CRoCoDiL -- Continuous and Robust Conditioned Diffusion for Language --&nbsp; a unified fine-tuning approach that jointly trains an encoder\u2013demasker architecture, grounding the MDM demasking in continuous latent representations. This leads to the formation of a novel autoencoder in which the decoding is obtained by an MDM algorithm. Relying on the same framework, we proceed by introducing two unconditional text synthesis algorithms: Continuous-Then-Discrete (ConThenDisc), a hybrid-diffusion approach that first generates latent representations in continuous space and then decodes these to tokens via an MDM, and Continuous-Within-Discrete (ConWithinDisc), a multi-diffusion strategy that refines latent representations throughout the discrete sampling process. Experiments using LLaDA show that our methods achieve superior generation quality and more than x10 faster sampling speeds in an unconditional setting.\n      \nnhorrocks@nvidia.com\n\nMon, 04/27/2026 - 10:34",
+      "published": "2026-04-27T17:34:29+00:00",
+      "categories": [
+        "segmentation"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "CRoCoDiL: Continuous and Robust Conditioned Diffusion for Language",
+      "link": "https://research.nvidia.com/publication/2026-03_crocodil-continuous-and-robust-conditioned-diffusion-language",
+      "source": "NVIDIA Research",
+      "published": "2026-04-27T17:34:29+00:00",
+      "categories": [
+        "segmentation"
+      ],
+      "summary": "CRoCoDiL proposes a novel approach to language generation using continuous latent representations, significantly improving generation quality and sampling speed over traditional methods.",
+      "notability_reason": "The introduction of CRoCoDiL represents a significant advancement in the field of language models by addressing limitations of existing masked diffusion models and achieving superior generation quality and speed."
+    }
+  ],
+  "generated_at": "2026-04-28T15:22:34.126516+00:00"
+}
