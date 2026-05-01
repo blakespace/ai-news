@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-01",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Reinforcement fine-tuning with LLM-as-a-judge",
+      "link": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-with-llm-as-a-judge/",
+      "summary": "In this post, we take a deeper look at how RLAIF or RL with LLM-as-a-judge works with Amazon Nova models effectively.",
+      "published": "2026-04-30T20:07:25+00:00",
+      "categories": [
+        "llm"
+      ]
+    },
+    {
+      "source": "NVIDIA Research",
+      "title": "Short-time, Wavelet-inspired Mouse Submovement Detection",
+      "link": "https://research.nvidia.com/publication/2026-04_short-time-wavelet-inspired-mouse-submovement-detection",
+      "summary": "Short-time, Wavelet-inspired Mouse Submovement Detection\n\n            Submovements are ballistic components of human motion constituting a large part of motor interaction and arising from the cyclical and overlapping cognitive processes of perception, motor planning, and motor execution. Extracting submovements is challenging as the motions tend to overlap, or start before the previous ends. We propose and evaluate use of a wavelet-inspired technique to accurately locate and parameterize submovements from one-dimensional speed time series. Our method employs a self-weighted loss refinement step to identify and improve regions of poor quality of fit, a challenge for simpler wavelet transforms. We demonstrate the accuracy of our method by presenting analysis of ~6,400 1-2s trials of synthetic egocentric camera (first-person shooter) aim data for which we know ground truth, modeled from a similarly sized real data set of 13 users. We compare our method to dual-threshold and the persistence 1D segmentation techniques and note challenges and opportunities for future improvements.\n\n      \nbboudaoud\n\nThu, 04/30/2026 - 10:15\n\n\n  \n    Tags\n          \n              mouse\n          video games",
+      "published": "2026-04-30T17:15:05+00:00",
+      "categories": [
+        "segmentation"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Sun Finance automates ID extraction and fraud detection with generative AI on AWS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/sun-finance-automates-id-extraction-and-fraud-detection-with-generative-ai-on-aws/",
+      "summary": "In this post, we show how Sun Finance used Amazon Bedrock, Amazon Textract, and Amazon Rekognition to build an AI-powered identity verification (IDV) pipeline. The solution improved extraction accuracy from 79.7% to 90.8%, cut per-document costs by 91%, and reduced processing time from up to 20 hours to under 5 seconds. You'll learn how combining specialized OCR with large language model (LLM) structuring outperformed using either tool alone. You'll also learn how to architect a serverless fraud detection system using vector similarity search.",
+      "published": "2026-04-30T17:00:45+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "Short-time, Wavelet-inspired Mouse Submovement Detection",
+      "link": "https://research.nvidia.com/publication/2026-04_short-time-wavelet-inspired-mouse-submovement-detection",
+      "source": "NVIDIA Research",
+      "published": "2026-04-30T17:15:05+00:00",
+      "categories": [
+        "segmentation"
+      ],
+      "summary": "This research introduces a wavelet-inspired method for accurately detecting and parameterizing submovements in human motion, demonstrating improved performance over existing techniques.",
+      "notability_reason": "The proposed wavelet-inspired technique for detecting mouse submovements represents a novel approach to segmentation in motion analysis, showcasing significant methodological advancements."
+    }
+  ],
+  "generated_at": "2026-05-01T14:14:19.144909+00:00"
+}
