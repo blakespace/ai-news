@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-09",
+  "items": [
+    {
+      "source": "Microsoft Research Blog",
+      "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
+      "link": "https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/",
+      "summary": "Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern power systems research. Analyses of congestion, transmission expansion, demand growth, and system resilience all depend on network models with realistic [&#8230;]\nThe post Building realistic electric transmission grid dataset at scale: a pipeline from open dataset appeared first on Microsoft Research.",
+      "published": "2026-05-08T19:53:56+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-05-09T14:14:42.052481+00:00"
+}
