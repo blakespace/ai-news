@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-13",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/",
+      "summary": "In this post, we show you how to set up FLOPs tracking during LLM fine-tuning using the open source Fine-Tuning FLOPs Meter toolkit on Amazon SageMaker AI. You learn how to determine your compliance status with a single configuration flag and generate audit-ready documentation.",
+      "published": "2026-05-12T15:48:52+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-05-13T15:39:58.745494+00:00"
+}
