@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-14",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Build financial document processing with Pulse AI and Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-financial-document-processing-with-pulse-ai-and-amazon-bedrock/",
+      "summary": "This post demonstrates how to build a documentation extraction and model fine-tuning pipeline that addresses challenges when processing the complex financial documents. By combining Pulse AI's advanced document understanding capabilities with the powerful AI services of Amazon Bedrock, organizations can achieve enterprise-grade accuracy and extract contextually relevant financial insights at scale.",
+      "published": "2026-05-13T18:00:06+00:00",
+      "categories": [
+        "general"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Fine-tune LLM with Databricks Unity Catalog and Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fine-tune-llm-with-databricks-unity-catalog-and-amazon-sagemaker-ai/",
+      "summary": "In this post, we demonstrate how to build a secure, complete LLM fine-tuning workflow that integrates Unity Catalog with Amazon SageMaker AI using Amazon EMR Serverless for preprocessing. The solution shows how to securely access governed data, maintain lineage across services, fine-tune the Ministral-3-3B-Instruct model, and register trained artifacts back into Unity Catalog. With this approach, you can continue using your existing services while preserving central governance, tracking data lineage without compromising security or compliance requirements.",
+      "published": "2026-05-13T17:22:42+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-05-14T15:14:03.270272+00:00"
+}
