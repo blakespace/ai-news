@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-17",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "iGRPO: Self-Feedback-Driven LLM Reasoning",
+      "link": "https://research.nvidia.com/publication/2026-02_igrpo-self-feedback-driven-llm-reasoning",
+      "summary": "iGRPO: Self-Feedback-Driven LLM Reasoning\n\n            Large Language Models (LLMs) have shown promise in solving complex mathematical problems, yet they still fall short of producing accurate and consistent solutions. Reinforcement Learning (RL) is a framework for aligning these models with task-specific rewards, improving overall quality and reliability. Group Relative Policy Optimization (GRPO) is an efficient, value-function-free alternative to Proximal Policy Optimization (PPO) that leverages group-relative reward normalization. We introduce Iterative Group Relative Policy Optimization (iGRPO), a two-stage extension of GRPO that adds dynamic self-conditioning through model-generated drafts. In Stage 1, iGRPO samples multiple exploratory drafts and selects the highest-reward draft using the same scalar reward signal used for optimization. In Stage 2, it appends this best draft to the original prompt and applies a GRPO-style update on draft-conditioned refinements, training the policy to improve beyond its strongest prior attempt. Under matched rollout budgets, iGRPO consistently outperforms GRPO across base models (e.g., Nemotron-H-8B-Base-8K and DeepSeek-R1 Distilled), validating its effectiveness on diverse reasoning benchmarks. Moreover, applying iGRPO to OpenReasoning-Nemotron-7B trained on AceReason-Math achieves new state-of-the-art results of 85.62\\% and 79.64\\% on AIME24 and AIME25, respectively. Ablations further show that the refinement wrapper generalizes beyond GRPO variants, benefits from a generative judge, and alters learning dynamics by delaying entropy collapse. These results underscore the potential of iterative, self-feedback-based RL for advancing verifiable mathematical reasoning.\n\n      \nahatamizadeh\n\nSat, 05/16/2026 - 11:22\n\n\n  \n    Tags\n          \n              large language model\n          reinforcement learning",
+      "published": "2026-05-16T18:22:19+00:00",
+      "categories": [
+        "segmentation",
+        "llm"
+      ]
+    },
+    {
+      "source": "NVIDIA Research",
+      "title": "RLP: Reinforcement as a Pretraining Objective",
+      "link": "https://research.nvidia.com/publication/2026-04_rlp-reinforcement-pretraining-objective",
+      "summary": "RLP: Reinforcement as a Pretraining Objective\n\n            The dominant paradigm for training large reasoning models starts with pre-training using next-token prediction loss on vast amounts of data. Reinforcement learning, while powerful in scaling reasoning, is introduced only as the very last phase of post-training, preceded by supervised fine-tuning. While dominant, is this an optimal way of training? In this paper, we present RLP, an information-driven reinforcement pretraining objective, that brings the core spirit of reinforcement learning -- exploration -- to the last phase of pretraining. The key idea is to treat chain-of-thought as an exploratory action, with rewards computed based on the information gain it provides for predicting future tokens. This training objective essentially encourages the model to think for itself before predicting what comes next, thus teaching an independent thinking behavior earlier in the pretraining. More concretely, the reward signal measures the increase in log-likelihood of the next token when conditioning on both context and a sampled reasoning chain, compared to conditioning on context alone. This approach yields a verifier-free dense reward signal, allowing for efficient training for the full document stream during pretraining. Specifically, RLP reframes reinforcement learning for reasoning as a pretraining objective on ordinary text, bridging the gap between next-token prediction and the emergence of useful chain-of-thought reasoning. Pretraining with RLP on Qwen3-1.7B-Base lifts the overall average across an eight-benchmark math-and-science suite by 19%. With identical post-training, the gains compound, with the largest improvements on reasoning-heavy tasks such as AIME25 and MMLU-Pro. Applying RLP to the Nemotron-Nano-12B-v2 increases the overall average from 42.81% to 61.32% and raises the average on scientific reasoning by 23%, demonstrating scalability across architectures and model sizes.\n\n      \nahatamizadeh\n\nSat, 05/16/2026 - 11:14\n\n\n  \n    Tags\n          \n              large language model\n          reinforcement learning",
+      "published": "2026-05-16T18:14:25+00:00",
+      "categories": [
+        "segmentation",
+        "llm"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "iGRPO: Self-Feedback-Driven LLM Reasoning",
+      "link": "https://research.nvidia.com/publication/2026-02_igrpo-self-feedback-driven-llm-reasoning",
+      "source": "NVIDIA Research",
+      "published": "2026-05-16T18:22:19+00:00",
+      "categories": [
+        "segmentation",
+        "llm"
+      ],
+      "summary": "The iGRPO method enhances LLM reasoning through a self-feedback-driven reinforcement learning framework, achieving new state-of-the-art results on reasoning benchmarks.",
+      "notability_reason": "Introduces a novel reinforcement learning approach for LLMs that significantly improves reasoning capabilities and achieves state-of-the-art results."
+    },
+    {
+      "title": "RLP: Reinforcement as a Pretraining Objective",
+      "link": "https://research.nvidia.com/publication/2026-04_rlp-reinforcement-pretraining-objective",
+      "source": "NVIDIA Research",
+      "published": "2026-05-16T18:14:25+00:00",
+      "categories": [
+        "segmentation",
+        "llm"
+      ],
+      "summary": "The RLP approach reframes reinforcement learning as a pretraining objective for LLMs, resulting in significant performance gains on reasoning-heavy benchmarks.",
+      "notability_reason": "Presents a new pretraining objective that integrates reinforcement learning earlier in the training process, leading to substantial performance improvements on reasoning tasks."
+    }
+  ],
+  "generated_at": "2026-05-17T14:22:50.812061+00:00"
+}
