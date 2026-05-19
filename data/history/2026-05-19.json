@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-19",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Scalable voice agent design with Amazon Nova Sonic: multi-agent, tools, and session segmentation",
+      "link": "https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/",
+      "summary": "In this post, you\u2019ll learn how to use Amazon Nova Sonic, Amazon Bedrock AgentCore, and Strands BidiAgent to build scalable, maintainable voice agents that handle these challenges efficiently, resulting in more responsive and intelligent customer interactions. We\u2019ll explore three popular architectural patterns for voice agents, highlighting their trade-offs and best practices for minimizing latency.",
+      "published": "2026-05-19T15:26:37+00:00",
+      "categories": [
+        "segmentation"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Prompting Amazon Nova 2 for content moderation",
+      "link": "https://aws.amazon.com/blogs/machine-learning/prompting-amazon-nova-2-for-content-moderation/",
+      "summary": "In this post, you learn how to prompt Amazon Nova 2 Lite for content moderation using structured and free-form approaches, grounded in the MLCommons AILuminate Assessment Standard. The prompting techniques use the AILuminate taxonomy as an example, but they work equally well with your own custom moderation policy. You can swap in your own category definitions and the prompt structure stays the same. We also benchmark the content moderation capabilities of Amazon Nova 2 Lite against several foundation models (FMs) on three public datasets.",
+      "published": "2026-05-18T18:56:36+00:00",
+      "categories": [
+        "segmentation"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-05-19T16:14:41.721437+00:00"
+}
