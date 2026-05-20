@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-20",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+      "link": "https://research.nvidia.com/publication/2026-05_nemotron-labs-diffusion-tri-mode-language-model-unifying-autoregressive",
+      "summary": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding\n\n            We introduce Nemotron-Labs-Diffusion, a tri-mode language model (LM) that unifies AR, diffusion, and self-speculation decoding within a single architecture. Trained with a joint AR-diffusion objective, Nemotron-Labs-Diffusion can switch modes to sustain high throughput across deployment settings and concurrency levels. Our study shows that (1) AR and diffusion objectives are complementary: diffusion improves lookahead planning, while AR provides left-to-right linguistic priors. (2) In self-speculation mode, diffusion drafts while AR verifies, outperforming multi-token prediction (MTP) methods in both acceptance rate and real-device efficiency. (3) A speed-of-light analysis further demonstrates diffusion\u2019s long-term potential, with up to 76.5% more tokens per forward pass than self-speculation under an optimal sampler. Scaling to 3B, 8B, and 14B parameters, our Nemotron-Labs-Diffusion family, including base, instruct, and vision-language models, consistently outperforms state-of-the-art open-source AR and diffusion LMs in both accuracy and speed. For example, Nemotron-Labs-Diffusion-8B decodes 5.9\u00d7more tokens per forward than Qwen3-8B with better accuracy, translating to 4\u00d7 higher throughput on SPEED-Bench with SGLang on a GB200 GPU.\nHF collection: https://huggingface.co/collections/nvidia/nemotron-labs-diffusion&nbsp;\n\n      \npmolchanov\n\nTue, 05/19/2026 - 10:00\n\n\n  \n    Tags\n          \n              LLM\n          efficiency\n          diffusion",
+      "published": "2026-05-19T17:00:56+00:00",
+      "categories": [
+        "segmentation",
+        "llm"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+      "link": "https://research.nvidia.com/publication/2026-05_nemotron-labs-diffusion-tri-mode-language-model-unifying-autoregressive",
+      "source": "NVIDIA Research",
+      "published": "2026-05-19T17:00:56+00:00",
+      "categories": [
+        "segmentation",
+        "llm"
+      ],
+      "summary": "Nemotron-Labs-Diffusion is a tri-mode language model that integrates autoregressive, diffusion, and self-speculation decoding, achieving superior accuracy and throughput compared to existing models, marking a notable advancement in LLM technology.",
+      "notability_reason": "The introduction of Nemotron-Labs-Diffusion represents a significant advancement in language model architecture by unifying multiple decoding strategies, which could enhance performance and efficiency in various applications."
+    }
+  ],
+  "generated_at": "2026-05-20T16:22:36.931191+00:00"
+}
