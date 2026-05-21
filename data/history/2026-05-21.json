@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-21",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Break the context window barrier with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/",
+      "summary": "In this post, you will learn how to implement Recursive Language Models (RLM) using Amazon Bedrock AgentCore Code Interpreter and the Strands Agents SDK. By the end, you will know how to process documents of varying lengths, with no upper bound on context size, use Bedrock AgentCore Code Interpreter as persistent working memory for iterative document analysis, and orchestrate sub-large language model (sub-LLM) calls from within a sandboxed Python environment to analyze specific document sections.",
+      "published": "2026-05-21T16:08:54+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-05-21T16:12:05.663581+00:00"
+}
