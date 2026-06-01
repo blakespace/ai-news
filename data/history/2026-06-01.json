@@ -1,0 +1,17 @@
+{
+  "date": "2026-06-01",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Accelerate LLM model loading and increase context windows with GPUDirect on Amazon FSx for Lustre and TurboQuant",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-llm-model-loading-and-increase-context-windows-with-gpudirect-on-amazon-fsx-for-lustre-and-turboquant/",
+      "summary": "If you\u2019re iterating on deploying large language models (LLMs) on AWS GPU instances, you\u2019ve probably noticed the larger the model to be loaded into GPU High Bandwidth Memory (HBM), the longer the painful wait until the GPUs are ready for inference. As models grow to hundreds of billions of parameters and GPU environments grow ever [\u2026]",
+      "published": "2026-06-01T16:07:19+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-06-01T18:33:46.071137+00:00"
+}
