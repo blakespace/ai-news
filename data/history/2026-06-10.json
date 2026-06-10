@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-10",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "Design of a Standard-Compliant Real-Time Neural Receiver for 5G NR",
+      "link": "https://research.nvidia.com/publication/2024-09_design-standard-compliant-real-time-neural-receiver-5g-nr",
+      "summary": "Design of a Standard-Compliant Real-Time Neural Receiver for 5G NR\n\n            We detail the steps required to deploy a multiuser multiple-input multiple-output (MU-MIMO) neural receiver (NRX) in an actual cellular communication system. This raises several exciting research challenges, including the need for realtime inference and compatibility with the 5G NR standard. As the network configuration in a practical setup can change dynamically within milliseconds, we propose an adaptive NRX architecture capable of supporting dynamic modulation and coding scheme (MCS) configurations without the need for any re-training and without additional inference cost. We optimize the latency of the neural network (NN) architecture to achieve inference times of less than 1ms on an NVIDIA A100 GPU using the TensorRT inference library. These latency constraints effectively limit the size of the NN and we quantify the resulting signal-to-noise ratio (SNR) degradation as less than 0.7 dB when compared to a preliminary non-real-time NRX architecture. Finally, we explore the potential for site-specific adaptation of the receiver by investigating the required size of the training dataset and the number of fine-tuning iterations to optimize the NRX for specific radio environments using a ray tracing-based channel model. The resulting NRX is ready for deployment in a real-time 5G NR system and the source code including the TensorRT experiments is available online.\n      \nnhorrocks@nvidia.com\n\nTue, 06/09/2026 - 11:19",
+      "published": "2026-06-09T18:19:52+00:00",
+      "categories": [
+        "general"
+      ]
+    },
+    {
+      "source": "NVIDIA Research",
+      "title": "ATLAS: AI-Native Receiver Test-and-Measurement by Leveraging AI-Guided Search",
+      "link": "https://research.nvidia.com/publication/2025-08_atlas-ai-native-receiver-test-and-measurement-leveraging-ai-guided-search",
+      "summary": "ATLAS: AI-Native Receiver Test-and-Measurement by Leveraging AI-Guided Search\n\n            Industry adoption of Artificial Intelligence (AI)-native wireless receivers, or even modular, Machine Learning (ML)-aided wireless signal processing blocks, has been slow. The main concern is the lack of explainability of these trained ML models and the significant risks posed to network functionalities in case of failures, especially since (i) testing on every exhaustive case is infeasible and (ii) the data used for model training may not be available. This paper proposes ATLAS, an AI-guided approach that generates a battery of tests for pre-trained AI-native receiver models and benchmarks the performance against a classical receiver architecture. Using gradient-based optimization, it avoids spanning the exhaustive set of all environment and channel conditions; instead, it generates the next test in an online manner to further probe specific configurations that offer the highest risk of failure. We implement and validate our approach by adopting the well-known DeepRx AI-native receiver model as well as a classical receiver using differentiable tensors in NVIDIA's Sionna environment. ATLAS uncovers specific combinations of mobility, channel delay spread, and noise, where fully and partially trained variants of AI-native DeepRx perform suboptimally compared to the classical receivers. Our proposed method reduces the number of tests required per failure found by 19% compared to grid search for a 3-parameters input optimization problem, demonstrating greater efficiency. In contrast, the computational cost of the grid-based approach scales exponentially with the number of variables, making it increasingly impractical for high-dimensional problems.\n      \nnhorrocks@nvidia.com\n\nTue, 06/09/2026 - 11:15",
+      "published": "2026-06-09T18:15:47+00:00",
+      "categories": [
+        "general"
+      ]
+    },
+    {
+      "source": "NVIDIA Research",
+      "title": "The Bridge Toward 6G: 5G-Advanced Evolution in 3GPP Release 19",
+      "link": "https://research.nvidia.com/publication/2023-12_bridge-toward-6g-5g-advanced-evolution-3gpp-release-19",
+      "summary": "The Bridge Toward 6G: 5G-Advanced Evolution in 3GPP Release 19\n\n            The 3rd generation partnership project (3GPP) initiated 5G-Advanced in Release 18, laying a solid foundation for the further evolution of 5G-Advanced. Release 19-the next wave of 5G-Advanced-will primarily focus on commercial deployment needs while serving as a bridge toward 6G. In this article, we provide an in-depth overview of the 5G-Advanced evolution in 3GPP Release 19. We not only delve into the key technology components and their corresponding use cases in 5G-Advanced evolution but also shed light on initial 3GPP studies toward 6G.\n      \nnhorrocks@nvidia.com\n\nTue, 06/09/2026 - 11:14",
+      "published": "2026-06-09T18:14:42+00:00",
+      "categories": [
+        "general"
+      ]
+    },
+    {
+      "source": "NVIDIA Research",
+      "title": "A Tale of Two Mobile Generations: 5G-Advanced and 6G in 3GPP Release 20",
+      "link": "https://research.nvidia.com/publication/2025-06_tale-two-mobile-generations-5g-advanced-and-6g-3gpp-release-20",
+      "summary": "A Tale of Two Mobile Generations: 5G-Advanced and 6G in 3GPP Release 20\n\n            As the telecommunications industry stands at the crossroads between the fifth generation (5G) and sixth generation (6G) of mobile communications, the 3rd generation partnership project (3GPP) Release 20 emerges as a pivotal point of transition. By striking a balance between enhancing 5G-Advanced capabilities and setting the stage for 6G, Release 20 provides the crucial foundation upon which future mobile communication standards and deployments will be built. This article examines these dual objectives, outlining the key enhancements, the motivations behind them, and their implications for the future of mobile communications.\n      \nnhorrocks@nvidia.com\n\nTue, 06/09/2026 - 11:12",
+      "published": "2026-06-09T18:12:23+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-06-10T16:30:12.371761+00:00"
+}
