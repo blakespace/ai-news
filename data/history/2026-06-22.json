@@ -1,0 +1,17 @@
+{
+  "date": "2026-06-22",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
+      "link": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/",
+      "summary": "In this post, we walk through the problem space, our architecture on Amazon Bedrock and Amazon OpenSearch Serverless, the evaluation methodology we built on OpenStreetMap ground truth, four experiments that compared embedding models, fusion strategies, captioning, and search methods, and the practical guidance you can apply when building a similar system. You\u2019ll learn which design choices move the needle for geospatial semantic search, including why Amazon Nova Multimodal Embeddings delivered the highest F1 scores across both benchmark queries in our evaluation. The work described here evolved into Vexcel Intelligence, a searchable imagery product.",
+      "published": "2026-06-22T16:32:15+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-06-22T17:26:24.539139+00:00"
+}
