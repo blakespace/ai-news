@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-26",
+  "items": [
+    {
+      "source": "NVIDIA Research",
+      "title": "OASIS: Object-Aware Page Management for Multi-GPU Systems",
+      "link": "https://research.nvidia.com/publication/2025-02_oasis-object-aware-page-management-multi-gpu-systems",
+      "summary": "OASIS: Object-Aware Page Management for Multi-GPU Systems\n\n            The ever-growing need for high-performance computing has driven the popularity of employing multi-GPU systems. Modern multi-GPU systems employ unified virtual memory (UVM) to manage page placement and migration. However, the page management in UVM is application object agnostic. In this paper, we characterize the page access behaviors in relation to the application objects, and reveal that the beneficial page management policy varies according to (i) the different data objects within the same application, and (ii) the different execution phases of the same object. This motivates the need for dynamic and proactive page management in multi-GPU systems. To this end, we propose OASIS, which dynamically identifies object patterns during the execution and proactively determines the appropriate page management policies for these objects at runtime. Experimental results show that OASIS improves the performance over uniformly adopting on-touch migration, access counter-based migration, and duplication by an average of 64%, 35%, and 42%, respectively. Moreover, OASIS achieves a 12% performance improvement over the state-of-the-art technique (i.e., GRIT) while having significantly lower design complexity.\n\n      \nmtarek\n\nThu, 06/25/2026 - 12:28",
+      "published": "2026-06-25T19:28:28+00:00",
+      "categories": [
+        "segmentation"
+      ]
+    },
+    {
+      "source": "NVIDIA Research",
+      "title": "SuperCollider: Scalable and Effective Data Race Detection for CUDA",
+      "link": "https://research.nvidia.com/publication/2026-06_supercollider-scalable-and-effective-data-race-detection-cuda",
+      "summary": "SuperCollider: Scalable and Effective Data Race Detection for CUDA\n\n            Data races, which occur when two or more threads incorrectly access the same memory location without appropriate synchronization, cause CUDA programmers considerable pain. Even experts struggle to reason about extreme parallelism, multiple memory spaces and scopes, and diverse synchronization mechanisms. Races can manifest as subtle data corruption, deadlock, or livelock, which are difficult to reproduce in a debugging environment. To date, there is no generally reliable tool for identifying races in GPU programs at scale. State-of-the-art dynamic GPU race detectors attempt to detect data races by faithfully tracking the memory operations, barriers, and memory fences executed by tens of thousands of threads. While this complexity enables the detection of subtle races, it comes with a cost: existing tools incur substantial memory-footprint overheads (e.g., greater than 9x) and/or runtime overheads (e.g., 1000x), and tend to report false positives. This paper introduces SuperCollider, a simple race detector for CUDA that tracks only thread-level state, is agnostic to synchronization protocols, introduces no memory-footprint overhead, seamlessly handles shared, global, and tensor memory spaces, does not produce false positives, and is relatively fast. Although SuperCollider cannot detect all races, we demonstrate that it effectively catches many data races in professionally authored CUDA programs, including races that prior art cannot. Our approach exposed over 90 data races across libraries and CUDA benchmarks, and even found a race in the CUDA Programming Guide. Unlike prior art, SuperCollider can operate at the extreme scales required by modern GPU workloads.\n\n      \nmtarek\n\nThu, 06/25/2026 - 12:19",
+      "published": "2026-06-25T19:19:52+00:00",
+      "categories": [
+        "segmentation"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-06-26T15:20:44.258698+00:00"
+}
