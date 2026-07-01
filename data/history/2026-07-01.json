@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-01",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Fine-tune Amazon Nova models for accurate email data extraction",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fine-tune-amazon-nova-models-for-accurate-email-data-extraction/",
+      "summary": "In this post, you'll learn how fine-tuning Amazon Nova models using Amazon SageMaker AI addresses these specific issues by teaching the models to recognize your exact data patterns, distinguish between similar fields, and process information more efficiently\u2014achieving up to 94.77% extraction accuracy while reducing costs 50%.",
+      "published": "2026-06-30T16:26:48+00:00",
+      "categories": [
+        "general"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-07-01T15:35:43.788236+00:00"
+}
