@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-06",
+  "items": [
+    {
+      "source": "Apple ML Journal",
+      "title": "Revisiting ASR Error Correction with Specialized Models",
+      "link": "https://machinelearning.apple.com/research/asr-error-correction",
+      "summary": "Language models play a central role in automatic speech recognition (ASR), yet most methods rely on text-only models unaware of ASR error patterns. Recently, large language models (LLMs) have been applied to ASR correction, but introduce latency and hallucination concerns. We revisit ASR error correction with compact seq2seq models, trained on ASR errors from real and synthetic audio. To scale training, we construct synthetic corpora via cascaded TTS and ASR, finding that matching the diversity of realistic error distributions is key. We propose correction-first decoding, where the correction\u2026",
+      "published": "2026-07-06T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-07-06T16:13:58.601618+00:00"
+}
