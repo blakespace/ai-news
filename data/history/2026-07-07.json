@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-07",
+  "items": [
+    {
+      "source": "Apple ML Journal",
+      "title": "DynaMiCS: Fine-Tuning LLMs with Performance Constraints Using Dynamic Mixtures",
+      "link": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
+      "summary": "Multi-domain fine-tuning of large language models requires improving performance on target domains while preserving performance on constrained domains, such as general knowledge, instruction following, or safety evaluations. Existing data mixing strategies rely on fixed heuristics or adaptive rules that cannot explicitly enforce preservation of such capabilities. We propose DynaMiCS, a dynamic mixture optimizer that casts multi-domain fine-tuning as a constrained optimization problem. At each update, DynaMiCS performs short domain-specific probing runs to estimate a slope matrix of local\u2026",
+      "published": "2026-07-07T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ]
+    },
+    {
+      "source": "Apple ML Journal",
+      "title": "Weblica: Scalable and Reproducible Training Environments for Visual Web Agents",
+      "link": "https://machinelearning.apple.com/research/weblica-visual-web-agents",
+      "summary": "The web is complex, open-ended, and constantly changing, making it challenging to scale training data for visual web agents. Existing data collection attempts remain limited to offline trajectories for supervised fine-tuning or a handful of simulated environments for RL training, thus failing to capture web diversity. We propose Weblica (Web Replica), a framework for constructing reproducible and scalable web environments. Our framework leverages 1) HTTP-level caching to capture and replay stable visual states while preserving interactive behavior and 2) LLM-based environment synthesis\u2026",
+      "published": "2026-07-07T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ]
+    },
+    {
+      "source": "Apple ML Journal",
+      "title": "FlowEval: Reference-Based Evaluation of Generated User Interfaces",
+      "link": "https://machinelearning.apple.com/research/floweval-ui-evaluation",
+      "summary": "While large language models (LLMs) and coding agents are often applied to user interface (UI) development, developers find it difficult to reliably assess their proficiency in visual and interaction design. Existing evaluations either rely on human experts, who can accurately assess usability by testing critical flows but are slow and costly, or on automated judges, which are scalable but less accurate and opaque. We present FlowEval, a reference-based framework that measures whether a generated UI supports realistic interaction flows by comparing navigation traces from real websites to traces\u2026",
+      "published": "2026-07-07T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ]
+    },
+    {
+      "source": "Apple ML Journal",
+      "title": "A Single Neuron Is Sufficient to Bypass Safety Alignment in Large Language Models",
+      "link": "https://machinelearning.apple.com/research/single-neuron-safety-alignment",
+      "summary": "Safety alignment in language models operates through two mechanistically distinct systems: refusal neurons that gate whether harmful knowledge is expressed, and concept neurons that encode the harmful knowledge itself. By targeting a single neuron in each system, we demonstrate both directions of failure \u2014 bypassing safety on explicit harmful requests via suppression, and inducing harmful content from innocent prompts via amplification \u2014 across seven models spanning two families and 1.7B to 70B parameters, without any training or prompt engineering. Our findings suggest that safety alignment\u2026",
+      "published": "2026-07-07T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ]
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Automatically redact PII in images with Amazon Nova",
+      "link": "https://aws.amazon.com/blogs/machine-learning/automatically-redact-pii-in-images-with-amazon-nova/",
+      "summary": "In this post, we present a multi-step pipeline directed by Amazon Nova, which uses its contextual vision reasoning to coordinate complementary tools, including Meta\u2019s open-source Segment Anything Model (SAM 3) deployed on Amazon SageMaker AI for pixel-level segmentation, and Amazon Textract for optical character recognition (OCR). This pipeline is designed to provide comprehensive and compliant PII redaction even for challenging edge cases such as fingerprints, ID cards, or license plates in arbitrary orientations.",
+      "published": "2026-07-06T16:55:02+00:00",
+      "categories": [
+        "segmentation"
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "title": "DynaMiCS: Fine-Tuning LLMs with Performance Constraints Using Dynamic Mixtures",
+      "link": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
+      "source": "Apple ML Journal",
+      "published": "2026-07-07T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "DynaMiCS presents a dynamic mixture optimizer for fine-tuning large language models, addressing the challenge of maintaining performance across multiple domains while adhering to constraints.",
+      "notability_reason": "Introduces a novel approach to fine-tuning LLMs with performance constraints, which could significantly impact multi-domain applications."
+    },
+    {
+      "title": "Weblica: Scalable and Reproducible Training Environments for Visual Web Agents",
+      "link": "https://machinelearning.apple.com/research/weblica-visual-web-agents",
+      "source": "Apple ML Journal",
+      "published": "2026-07-07T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "Weblica offers a framework for creating reproducible and scalable web environments for visual web agents, utilizing HTTP-level caching and LLM-based environment synthesis.",
+      "notability_reason": "Proposes a new framework for scalable training environments for visual web agents, which could enhance the training process in complex web environments."
+    },
+    {
+      "title": "FlowEval: Reference-Based Evaluation of Generated User Interfaces",
+      "link": "https://machinelearning.apple.com/research/floweval-ui-evaluation",
+      "source": "Apple ML Journal",
+      "published": "2026-07-07T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "FlowEval introduces a reference-based evaluation framework for generated user interfaces, comparing navigation traces from real websites to assess interaction flow.",
+      "notability_reason": "Presents a new evaluation framework for assessing UI generated by LLMs, which could improve the reliability of UI development processes."
+    },
+    {
+      "title": "A Single Neuron Is Sufficient to Bypass Safety Alignment in Large Language Models",
+      "link": "https://machinelearning.apple.com/research/single-neuron-safety-alignment",
+      "source": "Apple ML Journal",
+      "published": "2026-07-07T00:00:00+00:00",
+      "categories": [
+        "llm"
+      ],
+      "summary": "The study identifies how a single neuron can bypass safety alignment in large language models, demonstrating vulnerabilities across multiple models and parameter sizes.",
+      "notability_reason": "Reveals critical vulnerabilities in safety alignment mechanisms of LLMs, which could have significant implications for model safety and deployment."
+    }
+  ],
+  "generated_at": "2026-07-07T15:40:29.699156+00:00"
+}
