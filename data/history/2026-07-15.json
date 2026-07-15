@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-15",
+  "items": [
+    {
+      "source": "AWS Machine Learning Blog",
+      "title": "Multi-agent social intelligence with Strands Agents and Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/multi-agent-social-intelligence-with-strands-agents-and-amazon-bedrock/",
+      "summary": "This post shows how Thrad.ai deployed a multi-agent system with Strands Agents and Amazon Bedrock AgentCore that automates the pipeline from prospect discovery through personalized email generation. The post compares two orchestration patterns (Swarm and Graph) with head-to-head benchmarks on latency, cost, and email quality. You\u2019ll also learn how the system scores prospects using weighted criteria, intent classification, and temporal decay, plus governance controls for production deployment.",
+      "published": "2026-07-14T18:44:26+00:00",
+      "categories": [
+        "classification"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-07-15T14:42:47.815745+00:00"
+}
