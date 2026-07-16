@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-16",
+  "items": [
+    {
+      "source": "Apple ML Journal",
+      "title": "Interactive Proofs for General Distribution Properties",
+      "link": "https://machinelearning.apple.com/research/interactive-proofs-distribution-properties",
+      "summary": "Suppose Alice has collected a small number of samples from an unknown distribution, and would like to learn about the distribution. Bob, an untrusted data analyst, claims to have run a sophisticated data analysis on the distribution and makes assertions about its properties. When and how is it possible for Alice to efficiently verify Bob\u2019s claims (using fewer resources than would be needed to run the analysis herself)? We construct interactive proof systems for general distribution properties that can be decided by bounded-depth circuits. Taking N to be an upper bound on the distribution\u2019s\u2026",
+      "published": "2026-07-16T00:00:00+00:00",
+      "categories": [
+        "segmentation"
+      ]
+    }
+  ],
+  "notable": [],
+  "generated_at": "2026-07-16T14:52:54.546256+00:00"
+}
